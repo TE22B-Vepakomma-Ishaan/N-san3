@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Functions functions = new();
+
+
+
+System.Console.WriteLine(functions.Square());
+System.Console.WriteLine(functions.Multi());
+System.Console.WriteLine(functions.RightTriangleArea());
+
+
+
+
+
+
+Console.ReadKey();
